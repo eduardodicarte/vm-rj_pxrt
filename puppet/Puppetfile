@@ -1,0 +1,9 @@
+#Manage Puppet Module dependencies with librarian-puppet
+
+forge 'http://forge.puppetlabs.com'
+
+mod 'rj-router'
+	:git => "https://github.com/eduardodicarte/rj-router.git"
+
+mod 'rj-proxy'
+	:git => "https://github.com/eduardodicarte/rj-proxy.git"
